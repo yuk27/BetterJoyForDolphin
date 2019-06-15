@@ -13,14 +13,39 @@ And if you feel generous you can also donate directly to this project (and to me
 ## Getting Started
 
 ### Required software:
-* [BetterJoyForDolphin(x64)](https://drive.google.com/open?id=1yAITJkbBUl7imseRzw4yvbrvXRrEGZP4)
+* [BetterJoyForDolphin (x64)](https://drive.google.com/open?id=1yAITJkbBUl7imseRzw4yvbrvXRrEGZP4)
 * [UDP version of Dolphin](festyy.com/w1BnDk)
 
 ### Prerequisites
 
 #### Configure Dolphin UDP
 
+After downloading and extracting UDP Dolphin, you need to manually add the port information to WiimoteNew.ini (By default located on path ..\Documents\Dolphin Emulator\Config\WiimoteNew.ini):
 
+####Extra code: 
+UDP Wiimote/Port = 4434 (It's recommended to use port 4434,4435,4436,4437 for controller 1,2,3,4 respectively, but this can be modified to the user needs).
+UDP Wiimote/Enable = 1
+
+####example:
+
+[Wiimote1] 
+Source = 0
+UDP Wiimote/Port = 4434
+UDP Wiimote/Enable = 1
+[Wiimote2]
+Source = 0
+UDP Wiimote/Enable = 1
+UDP Wiimote/Port = 4435
+[Wiimote3]
+Source = 0
+UDP Wiimote/Enable = 1
+UDP Wiimote/Port = 4436
+[Wiimote4]
+Source = 0
+UDP Wiimote/Enable = 1
+UDP Wiimote/Port = 4437
+
+For more information on Dolphin UDP please refer to the [Dolphin Forum](https://forums.dolphin-emu.org/Thread-unofficial-udpmote-for-android).
 
 ### Installing
 
