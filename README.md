@@ -1,6 +1,6 @@
 # BetterJoyForDolphin
 
-Allows the Nintendo Switch Pro Controller and Joycons to be used with UDP version of Dolphin, the Nintendo Wii emulator and system-wide with generic XInput support.
+Allows the Nintendo Switch Pro Controller and Joycons to be used with UDP version of Dolphin(https://mega.nz/#!Zx4TUQyZ!wc8-lbViJb4ZK1XXXrTVA6om_7Oc8s_6Ot4oX0-YYi0), the Nintendo Wii emulator.
 
 This project is based on the amazing work done by Davidobot, creator of BetterJoyForCemu(https://github.com/Davidobot/BetterJoyForCemu)
 
