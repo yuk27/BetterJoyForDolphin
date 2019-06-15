@@ -182,8 +182,8 @@ namespace BetterJoyForDolphin {
 							byte led = jc.LED <= v.LED ? jc.LED : v.LED;
 							jc.LED = led;
 							v.LED = led;
-							jc.SetLED(led);
-							v.SetLED(led);
+							jc.SetPlayerLED(led);
+							v.SetPlayerLED(led);
 
 							v.xin.Dispose();
 							v.xin = null;
@@ -221,8 +221,8 @@ namespace BetterJoyForDolphin {
 					//Set original Joycon LEDs
 					v.other.LED = (byte)(0x1 << v.other.PadId);
 					v.LED = (byte)(0x1 << v.PadId);
-					v.other.SetLED(v.other.LED);
-					v.SetLED(v.LED);
+					v.other.SetPlayerLED(v.other.LED);
+					v.SetPlayerLED(v.LED);
 
                     v.other.SetActiveOtherPack(true);
                     v.other.other.SetActiveOtherPack(true);
@@ -262,7 +262,6 @@ namespace BetterJoyForDolphin {
 			foldLbl.Text = rightPanel.Visible ? "<" : ">";
 		}
 
-        // JC CHANGED SETTINGS
 		private void cbBox_Changed(object sender, EventArgs e) {
 			var coord = tableLayoutPanel1.GetPositionFromControl(sender as Control);
 
@@ -277,6 +276,12 @@ namespace BetterJoyForDolphin {
 				} else if (sender.GetType() == typeof(TextBox) && settings[KeyCtl] != null) {
 					settings[KeyCtl].Value = ((TextBox)valCtl).Text.ToLower();
 				}
+                if(KeyCtl == "HomeLEDOn") {
+                    bool on = settings[KeyCtl].Value.ToLower() == "true";
+                    foreach(Joycon j in Program.mgr.j) {
+                        j.SetHomeLight(on);
+                    }
+                }
 				configFile.Save(ConfigurationSaveMode.Modified);
 				ConfigurationManager.RefreshSection(configFile.AppSettings.SectionInformation.Name);
 			} catch (ConfigurationErrorsException) {
@@ -313,22 +318,6 @@ namespace BetterJoyForDolphin {
 			countDown.Enabled = true;
 		}
 
-        private void version_lbl_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void con1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void CountDown(object sender, EventArgs e) {
 			if (this.count == 0) {
 				this.console.Text = "Calibrating...";
 				countDown.Stop();
