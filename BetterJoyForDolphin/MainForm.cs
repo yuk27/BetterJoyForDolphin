@@ -318,7 +318,9 @@ namespace BetterJoyForDolphin {
 			countDown.Enabled = true;
 		}
 
-			if (this.count == 0) {
+        private void CountDown(object sender, EventArgs e)
+        {
+            if (this.count == 0) {
 				this.console.Text = "Calibrating...";
 				countDown.Stop();
 				this.StartGetData();
