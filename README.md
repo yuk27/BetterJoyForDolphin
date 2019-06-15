@@ -62,7 +62,7 @@ For more information on Dolphin UDP please refer to the [Dolphin Forum](https://
     1. If running for the first time, things might glitch out - just close the program normally and restart your computer for the drivers to take effect.
 3. Connect your controllers (via bluetooth or USB).
 
-3.1 (Optional: only if using Generic Joycons): Generic Joycons can be wronlgy detected as Pro Controllers as it's Serial can be different to the expected one in a third party Joycon. Once the Joycons have been detected by BetterJoyForDolphin as pro controllers, click on the Config option just under the controller icon. In there you can identify the type of controller, as also modify other parameters of the controller as the sensibility of the Accelerometer and the direction of the axis.
+3.1 (Optional, only if using Generic Joycons): Generic Joycons can be wronlgy detected as Pro Controllers as it's Serial can be different to the expected one in a third party Joycon. Once the Joycons have been detected by BetterJoyForDolphin as pro controllers, click on the Config option just under the controller icon. In there you can identify the type of controller, as also modify other parameters of the controller as the sensibility of the Accelerometer and the direction of the axis.
 
 4. Start Dolphin UDP and ensure WiimoteNew has been correctly modified.
     1. If using Joycons, CemuHook will detect two controllers - each will give all buttons, but choosing one over the other just chooses preference for which hand to use for gyro controls.
