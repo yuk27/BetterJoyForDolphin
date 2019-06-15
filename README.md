@@ -1,26 +1,26 @@
 # BetterJoyForDolphin
 
-Allows the Nintendo Switch Pro Controller and Joycons to be used with UDP version of Dolphin(https://mega.nz/#!Zx4TUQyZ!wc8-lbViJb4ZK1XXXrTVA6om_7Oc8s_6Ot4oX0-YYi0), the Nintendo Wii emulator.
+Allows the Nintendo Switch Pro Controller and Joycons (original and 3rd party) to be used with [UDP version of Dolphin](https://mega.nz/#!Zx4TUQyZ!wc8-lbViJb4ZK1XXXrTVA6om_7Oc8s_6Ot4oX0-YYi0), the Nintendo Wii emulator.
 
-This project is based on the amazing work done by Davidobot, creator of BetterJoyForCemu(https://github.com/Davidobot/BetterJoyForCemu)
+This project is based on the amazing work done by Davidobot, creator of [BetterJoyForCemu](https://github.com/Davidobot/BetterJoyForCemu).
 
-# Donations
+## Donations
 
-If you would like to support the development of BetterJoyForDolphin, consider donating to the BetterJoyForCemu(https://www.paypal.me/DavidKhachaturov/5) project.
+If you would like to support the development of BetterJoyForDolphin, consider donating to the [BetterJoyForCemu](https://www.paypal.me/DavidKhachaturov/5) project.
 
-And if you feel generous you can donate directly to this project (and to me) at the following link(https://www.paypal.me/yuk27/3).
+And if you feel generous you can also donate directly to this project (and to me) at the following [link].(https://www.paypal.me/yuk27/3).
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+### Required software:
+* [BetterJoyForDolphin(x64)](https://drive.google.com/open?id=1yAITJkbBUl7imseRzw4yvbrvXRrEGZP4)
+* [UDP version of Dolphin](festyy.com/w1BnDk)
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+#### Configure Dolphin UDP
 
-```
-Give examples
-```
+
 
 ### Installing
 
