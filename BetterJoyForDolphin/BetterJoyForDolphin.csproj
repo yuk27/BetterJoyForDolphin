@@ -162,6 +162,12 @@
       <DependentUpon>DolphinConfig.cs</DependentUpon>
     </Compile>
     <Compile Include="DolphinJoyConfig.cs" />
+    <Compile Include="Donate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Donate.Designer.cs">
+      <DependentUpon>Donate.cs</DependentUpon>
+    </Compile>
     <Compile Include="GenericControllerManager.cs" />
     <Compile Include="HIDapi.cs" />
     <Compile Include="Joycon.cs" />
@@ -210,6 +216,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DolphinConfig.resx">
       <DependentUpon>DolphinConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Donate.resx">
+      <DependentUpon>Donate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>

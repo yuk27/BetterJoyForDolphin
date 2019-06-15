@@ -118,9 +118,9 @@ namespace BetterJoyForDolphin {
 		}
 
 		private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) {
-			linkLabel1.LinkVisited = true;
-			System.Diagnostics.Process.Start("http://paypal.me/DavidKhachaturov/5");
-		}
+                Form dp = new DonatePanel();
+                dp.ShowDialog();
+        }
 
 		private void passiveScanBox_CheckedChanged(object sender, EventArgs e) {
 			Config.Save("ProgressiveScan", passiveScanBox.Checked);
