@@ -8,7 +8,7 @@ This project is based on the amazing work done by Davidobot, creator of [BetterJ
 
 If you would like to support the development of BetterJoyForDolphin, consider donating to the [BetterJoyForCemu](https://www.paypal.me/DavidKhachaturov/5) project.
 
-And if you feel generous you can also donate directly to this project (and to me) at the following [link].(https://www.paypal.me/yuk27/3).
+And if you feel generous you can also donate directly to this project (and to me) at the following [link](https://www.paypal.me/yuk27/3).
 
 ## Getting Started
 
@@ -22,12 +22,16 @@ And if you feel generous you can also donate directly to this project (and to me
 
 After downloading and extracting UDP Dolphin, you need to manually add the port information to WiimoteNew.ini (By default located on path ..\Documents\Dolphin Emulator\Config\WiimoteNew.ini):
 
-####Extra code: 
-UDP Wiimote/Port = 4434 (It's recommended to use port 4434,4435,4436,4437 for controller 1,2,3,4 respectively, but this can be modified to the user needs).
+### Extra code: 
+```
+UDP Wiimote/Port = 4434 
 UDP Wiimote/Enable = 1
+```
 
-####example:
+* (It's recommended to use port 4434,4435,4436,4437 for controller 1,2,3,4 respectively, but this can be modified to the user needs).
 
+### Example:
+```
 [Wiimote1] 
 Source = 0
 UDP Wiimote/Port = 4434
@@ -44,26 +48,25 @@ UDP Wiimote/Port = 4436
 Source = 0
 UDP Wiimote/Enable = 1
 UDP Wiimote/Port = 4437
+```
+
+You can also download a already configured version of [WiimoteNew.ini](http://festyy.com/w1BQqN).
 
 For more information on Dolphin UDP please refer to the [Dolphin Forum](https://forums.dolphin-emu.org/Thread-unofficial-udpmote-for-android).
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+1. Install drivers (if BetterJoyForCemu has been run installed before this step is not needed)
+    1. Run *! Driver Install (Run as Admin).bat*
+2. Run BetterJoyForDolphin.exe
+    1. If running for the first time, things might glitch out - just close the program normally and restart your computer for the drivers to take effect.
+3. Connect your controllers (via bluetooth or USB).
 
-Say what the step will be
+3.1 (Optional: only if using Generic Joycons): Generic Joycons can be wronlgy detected as Pro Controllers as it's Serial can be different to the expected one in a third party Joycon. Once the Joycons have been detected by BetterJoyForDolphin as pro controllers, click on the Config option just under the controller icon. In there you can identify the type of controller, as also modify other parameters of the controller as the sensibility of the Accelerometer and the direction of the axis.
 
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+4. Start Dolphin UDP and ensure WiimoteNew has been correctly modified.
+    1. If using Joycons, CemuHook will detect two controllers - each will give all buttons, but choosing one over the other just chooses preference for which hand to use for gyro controls.
+5. Go to controllers option in Dolphin and configure it normally.
 
 ## Running the tests
 
