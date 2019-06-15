@@ -26,7 +26,7 @@ namespace BetterJoyForDolphin
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             linkLabel2.LinkVisited = true;
-            System.Diagnostics.Process.Start("https://www.paypal.me/yuk27/5");
+            System.Diagnostics.Process.Start("https://www.paypal.me/yuk27/3");
         }
     }
 }
