@@ -113,7 +113,6 @@
             this.version_lbl.Size = new System.Drawing.Size(28, 13);
             this.version_lbl.TabIndex = 2;
             this.version_lbl.Text = "v0.1";
-            this.version_lbl.Click += new System.EventHandler(this.version_lbl_Click);
             // 
             // passiveScanBox
             // 
@@ -281,7 +280,6 @@
             this.con1.TabStop = false;
             this.btnTip.SetToolTip(this.con1, "Click on Joycons to join/split them");
             this.con1.UseVisualStyleBackColor = true;
-            this.con1.Click += new System.EventHandler(this.con1_Click);
             // 
             // foldLbl
             // 
@@ -344,7 +342,6 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.Size = new System.Drawing.Size(219, 240);
             this.tableLayoutPanel1.TabIndex = 1;
-            this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
             // rightPanel
             // 
