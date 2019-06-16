@@ -37,7 +37,7 @@ namespace BetterJoyForDolphin
 
             int[] inverted = joy.GetPack().GetInverted();
 
-            checkBoxX.Checked = inverted[0] < 1 ? true:false;
+            checkBoxX.Checked = inverted[0] < 1 ? true : false;
             checkBoxY.Checked = inverted[1] < 1 ? true : false;
             checkBoxZ.Checked = inverted[2] < 1 ? true : false;
 
@@ -84,7 +84,7 @@ namespace BetterJoyForDolphin
             checkBoxX.Checked = false;
             checkBoxY.Checked = false;
             checkBoxZ.Checked = false;
-            ProRadio.Checked = true;
+            //ProRadio.Checked = true;
 
         }
 
