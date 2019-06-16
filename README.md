@@ -14,7 +14,7 @@ And if you feel generous you can also donate directly to BetterJoyForDolphin (an
 
 ### Required software:
 * [BetterJoyForDolphin (x64)](https://drive.google.com/open?id=1yAITJkbBUl7imseRzw4yvbrvXRrEGZP4)
-* [UDP version of Dolphin](http://www.festyy.com/w1BnDk)
+* [UDP version of Dolphin](http://festyy.com/w1BnDk)
 
 ### Prerequisites
 
