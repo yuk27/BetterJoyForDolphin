@@ -1,4 +1,4 @@
-# BetterJoyForDolphin
+# BetterJoyForDolphin v0.1
 
 Allows the Nintendo Switch Pro Controller and Joycons (original and 3rd party) to be used with [UDP version of Dolphin](https://mega.nz/#!Zx4TUQyZ!wc8-lbViJb4ZK1XXXrTVA6om_7Oc8s_6Ot4oX0-YYi0), the Nintendo Wii emulator.
 
@@ -77,52 +77,49 @@ BetterJoyForDolphin mantains legacy functionalities from BetterJoyForCemu, so yo
 For more information on cemuhook, please refer to the follwing [link](https://cemuhook.sshnuke.net/padudpserver.html).
 
 ### App Settings
-Feel free to edit BetterJoyForCemu.exe.config before running the program to configure it to your liking.
 
-For example, for use with Citra and Steam simultaneously, you may consider turning off UseHIDG and ShowAsXInput.
+BetterJoyForDolphin settings allow to set the port being used for each controller on Dolphin UDP , just click in the panel, set the expected port, click away from the panel and click on "Apply".
 
-Current settings are:
+![Example](./Examples/Dolphinports.PNG)
 
-![Example](./Examples/Dolphinports.png)
+For more information on the legacy settings from BetterJoyForCemu please refer to [App Settings](https://github.com/Davidobot/BetterJoyForCemu/blob/master/README.md)
 
-### And coding style tests
+### Problems
+## Make sure you installed the drivers!!
 
-Explain what these tests test and why
+## 3rd party Joycons are recognise as Pro Controllers
+As 3rd party controllers can have different internal IDs of what is expected on a 1st party controller, by default 3rd party controllers are set as Pro controllers, you can manually identify the type of controller you are using by going to "Config" option just under the controller icon, a Panel will appear where you can identifying the controller by it's type and click apply, this will store the controller information on the serials.dat file.
 
-```
-Give an example
-```
+## Motion Controls work erratic
 
-## Deployment
+Try playing with the sensibility option on the Config panel, as depending on the controller sometimes sensibility can be lower or higher than expected from an Wiimote (as we are emulating one).
 
-Add additional notes about how to deploy this on a live system
+## 3rd party right controller works less accurate than left one 
 
-## Built With
+Some 3rd party controller right controller information can be different from what is expected, you can try solving the issue by inverting the Y and Z axis on the controller configuration panel and setting the sensibility as needed.
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+![Example](./Examples/3rdParty.PNG)
 
-## Contributing
+For more problems solutions please refer to [Problems](https://github.com/Davidobot/BetterJoyForCemu/blob/master/README.md).
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+# Connecting the Controller
+## Bluetooth Mode
+Hold down the small button on the top of the controller for 5 seconds - this puts the controller into broadcasting mode.
+
+Search for it in your bluetooth settings and pair normally.
+
+To disconnect the controller - press down the button once. To reconnect - press any button on your controller.
+
+## USB Mode
+Plug the controller into your computer.
 
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+A massive THANK YOU out to [Davidobot](https://github.com/Davidobot) for creating BetterJoyForCemu, please keep the amazing work!
+A massive THANK YOU out to [kevlahnota](https://github.com/kevlahnota) for creating Dolphin-Ishiiruka UDPWii, and keeping the option of creating over his work.
+
