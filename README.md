@@ -8,7 +8,7 @@ This project is based on the amazing work done by Davidobot, creator of [BetterJ
 
 If you would like to support the development of BetterJoyForDolphin, consider donating to the [BetterJoyForCemu](https://www.paypal.me/DavidKhachaturov/5) project.
 
-And if you feel generous you can also donate directly to this project (and to me) at the following [link](https://www.paypal.me/yuk27/3).
+And if you feel generous you can also donate directly to BetterJoyForDolphin (and to me) at the following [link](https://www.paypal.me/yuk27/3).
 
 ## Getting Started
 
