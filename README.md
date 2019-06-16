@@ -13,7 +13,7 @@ And if you feel generous you can also donate directly to BetterJoyForDolphin (an
 ## Getting Started
 
 ### Required software:
-* [BetterJoyForDolphin (x64)](https://drive.google.com/open?id=1yAITJkbBUl7imseRzw4yvbrvXRrEGZP4)
+* [BetterJoyForDolphin (x64)](http://festyy.com/w1M0fc)
 * [UDP version of Dolphin](http://festyy.com/w1BnDk)
 
 ### Prerequisites
