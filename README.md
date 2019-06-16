@@ -114,9 +114,12 @@ To disconnect the controller - press down the button once. To reconnect - press 
 ## USB Mode
 Plug the controller into your computer.
 
-## Versioning
+## WIP and expected future additions: (Order by priority, I accept requests ;) ) 
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+* Bug and accuracy fixes.
+* Handling of Wii IR functionalities (maybe using the Joycon gyro).
+* Adding Motion controls to Nunchucks using the right Joycon accelerometer.
+* Win the lottery to have the time and money to work on this kind of projects.
 
 ## Acknowledgments
 
