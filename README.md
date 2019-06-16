@@ -92,13 +92,13 @@ As 3rd party controllers can have different internal IDs of what is expected on 
 
 ### Motion Controls work erratic
 
-Try playing with the sensibility option on the Config panel, as depending on the controller sometimes sensibility can be lower or higher than expected from an Wiimote (as we are emulating one).
+Try playing with the sensibility option on the Config panel, as depending on the controller sometimes sensibility can be lower or higher than expected from a Wiimote (as we are emulating one).
 
 ### 3rd party right controller works less accurate than left one 
 
 Some 3rd party controller right controller information can be different from what is expected, you can try solving the issue by inverting the Y and Z axis on the controller configuration panel and setting the sensibility as needed.
 
-![Example](./Examples/3rdParty.PNG)
+![Example](./Examples/3rdRight.PNG)
 
 For more problems solutions please refer to [Problems](https://github.com/Davidobot/BetterJoyForCemu/blob/master/README.md).
 
