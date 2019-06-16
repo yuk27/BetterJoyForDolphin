@@ -84,17 +84,17 @@ BetterJoyForDolphin settings allow to set the port being used for each controlle
 
 For more information on the legacy settings from BetterJoyForCemu please refer to [App Settings](https://github.com/Davidobot/BetterJoyForCemu/blob/master/README.md)
 
-### Problems
-## Make sure you installed the drivers!!
+## Problems
+### Make sure you installed the drivers!!
 
-## 3rd party Joycons are recognise as Pro Controllers
+### 3rd party Joycons are recognise as Pro Controllers
 As 3rd party controllers can have different internal IDs of what is expected on a 1st party controller, by default 3rd party controllers are set as Pro controllers, you can manually identify the type of controller you are using by going to "Config" option just under the controller icon, a Panel will appear where you can identifying the controller by it's type and click apply, this will store the controller information on the serials.dat file.
 
-## Motion Controls work erratic
+### Motion Controls work erratic
 
 Try playing with the sensibility option on the Config panel, as depending on the controller sometimes sensibility can be lower or higher than expected from an Wiimote (as we are emulating one).
 
-## 3rd party right controller works less accurate than left one 
+### 3rd party right controller works less accurate than left one 
 
 Some 3rd party controller right controller information can be different from what is expected, you can try solving the issue by inverting the Y and Z axis on the controller configuration panel and setting the sensibility as needed.
 
