@@ -96,7 +96,7 @@ Try playing with the sensibility option on the Config panel, as depending on the
 
 ### 3rd party right controller works less accurate than left one 
 
-Some 3rd party controller right controller information can be different from what is expected, you can try solving the issue by inverting the Y and Z axis on the controller configuration panel and setting the sensibility as needed.
+Some 3rd party right controllers information can be different from what is expected, you can try solving the issue by inverting the Y and Z axis on the controller configuration panel and tweaking the sensibility as needed.
 
 ![Example](./Examples/3rdRight.PNG)
 
