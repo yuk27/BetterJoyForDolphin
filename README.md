@@ -124,5 +124,6 @@ Plug the controller into your computer.
 ## Acknowledgments
 
 A massive THANK YOU out to [Davidobot](https://github.com/Davidobot) for creating BetterJoyForCemu, please keep the amazing work!
+
 A massive THANK YOU out to [kevlahnota](https://github.com/kevlahnota) for creating Dolphin-Ishiiruka UDPWii, and keeping the option of creating over his work.
 
