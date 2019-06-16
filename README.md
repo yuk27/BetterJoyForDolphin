@@ -28,7 +28,7 @@ UDP Wiimote/Port = 4434
 UDP Wiimote/Enable = 1
 ```
 
-* (It's recommended to use port 4434,4435,4436,4437 for controller 1,2,3,4 respectively, but this can be modified to the user needs).
+* (It's recommended to use port 4434, 4435, 4436, 4437 for controller 1, 2, 3, 4 respectively, but this can be modified to the user needs).
 
 ### Example:
 ```
@@ -56,29 +56,34 @@ For more information on Dolphin UDP please refer to the [Dolphin Forum](https://
 
 ### Installing
 
-1. Install drivers (if BetterJoyForCemu has been run installed before this step is not needed)
+1. Install drivers (if BetterJoyForCemu drivers have been installed before this step is not needed)
     1. Run *! Driver Install (Run as Admin).bat*
+    
 2. Run BetterJoyForDolphin.exe
     1. If running for the first time, things might glitch out - just close the program normally and restart your computer for the drivers to take effect.
+    
 3. Connect your controllers (via bluetooth or USB).
 
-3.1 (Optional, only if using Generic Joycons): Generic Joycons can be wronlgy detected as Pro Controllers as it's Serial can be different to the expected one in a third party Joycon. Once the Joycons have been detected by BetterJoyForDolphin as pro controllers, click on the Config option just under the controller icon. In there you can identify the type of controller, as also modify other parameters of the controller as the sensibility of the Accelerometer and the direction of the axis.
+4. Once the controller has been detected by BetterJoyForDolphin, click on the Config option just under the controller icon. In there you can identify the Accelerometer sensibility, the direction of the axis and the type of controller (Needed for 3rd party Joycons, as this are by default set as Pro controllers).
 
-4. Start Dolphin UDP and ensure WiimoteNew has been correctly modified.
-    1. If using Joycons, CemuHook will detect two controllers - each will give all buttons, but choosing one over the other just chooses preference for which hand to use for gyro controls.
-5. Go to controllers option in Dolphin and configure it normally.
+5. Start Dolphin UDP and ensure WiimoteNew has been correctly modified.
 
-## Running the tests
+6. Go to controllers option in Dolphin and configure it normally.
 
-Explain how to run the automated tests for this system
+## Compatibilty with Cemuhook
 
-### Break down into end to end tests
+BetterJoyForDolphin mantains legacy functionalities from BetterJoyForCemu, so you can test the controller accelerometer and gyro by using [padtest](https://files.sshnuke.net/PadTest_1011.zip).
 
-Explain what these tests test and why
+For more information on cemuhook, please refer to the follwing [link](https://cemuhook.sshnuke.net/padudpserver.html).
 
-```
-Give an example
-```
+### App Settings
+Feel free to edit BetterJoyForCemu.exe.config before running the program to configure it to your liking.
+
+For example, for use with Citra and Steam simultaneously, you may consider turning off UseHIDG and ShowAsXInput.
+
+Current settings are:
+
+![Example](./Examples/Dolphinports.png)
 
 ### And coding style tests
 
