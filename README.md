@@ -50,7 +50,7 @@ UDP Wiimote/Enable = 1
 UDP Wiimote/Port = 4437
 ```
 
-You can also download a already configured version of [WiimoteNew.ini](http://festyy.com/w1BQqN).
+You can also download a already configured version of [WiimoteNew.ini](https://drive.google.com/file/d/1tt0Misr_7DRHsGxq4lUggrtC0-6o9Cqz/view).
 
 For more information on Dolphin UDP please refer to the [Dolphin Forum](https://forums.dolphin-emu.org/Thread-unofficial-udpmote-for-android).
 
