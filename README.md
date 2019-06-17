@@ -121,6 +121,9 @@ Plug the controller into your computer.
 * Adding Motion controls to Nunchucks using the right Joycon accelerometer.
 * Win the lottery to have the time and money to work on this kind of projects.
 
+## Videos
+* [Playing Super Mario Galaxy 2](https://youtu.be/ZCq107Qthkw)
+
 ## Acknowledgments
 
 A massive THANK YOU out to [Davidobot](https://github.com/Davidobot) for creating BetterJoyForCemu, please keep the amazing work!
